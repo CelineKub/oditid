@@ -1,0 +1,32 @@
+{
+  "name": "oditid",
+  "version": "1.11.1",
+  "description": "ASN.1 encoder and decoder",
+  "main": "lib/asn1.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js rfc/2560/test/*-test.js rfc/5280/test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CelineKub/oditid.git"
+  },
+  "keywords": [
+    "sed",
+    "der"
+  ],
+  "author": "JimmieLindgren",
+  "license": "MIT",
+  "homepage": "https://github.com/CelineKub/oditid.git",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "bn.js": "^4.0.0",
+    "doloresat": "^1.0.0",
+    "enimet": "^1.0.0",
+    "errorminima": "^1.0.0",
+    "inherits": "^2.0.1",
+    "minimalistic-assert": "^1.0.0",
+    "reprehenderitquibusdam": "^1.0.0"
+  }
+}
